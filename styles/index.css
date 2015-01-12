@@ -1,5 +1,5 @@
 html, body, h1, h3, img, header, a, ul, li, nav, input, span, form,
-textarea, button, dl, dt, dd, select, div {
+textarea, button, dl, dt, dd, select, div, p, pre {
     margin: 0;
     padding: 0;
 }
@@ -86,4 +86,21 @@ a {
     font-size: 14px;
     padding: 10px 10px;
     line-height: 40px;
+}
+
+.GabeN {
+    background-color: #2b2b2b;
+    color: #ffffff;
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.GabeN-div {
+    margin-top: 45px;
+    background-color: #2b2b2b;
+    color: #ffffff;
+}
+
+body {
+    background-color: #2b2b2b;
 }
