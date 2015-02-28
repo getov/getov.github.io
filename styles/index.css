@@ -121,9 +121,9 @@ body {
 }
 
 #center_body {
-    border: 1px solid;
-    min-height: 100px;
+    /*border: 1px solid;*/
 }
+
 #footer {
     background: rgb(113, 109, 109);
     color: #EEE;
