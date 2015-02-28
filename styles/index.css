@@ -16,20 +16,23 @@ body {
 }
 
 #header-wrapper {
-    background: rgba(22, 42, 48, 0.98);
-    height: 40px;
+    background: rgb(255, 255, 255);
+    height: 140px;
 
     width: 960px;
     margin: 0px auto;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
 
     /*-moz-box-shadow: 0px 0px 5px 4px #AAA;
     -webkit-box-shadow: 0px 0px 5px 4px #AAA;
     box-shadow: 0px 0px 5px 4px #AAA;  */
+}
+
+#header-wallpaper {
+    background: rgb(255, 255, 255);
+    margin: 0px 10px 10px 10px;
+    font-size: 20px;
+    min-height: 100px;
+    border: 2px solid;
 }
 
 header {
@@ -53,12 +56,13 @@ a {
 }
 
 .main-menu {
+    /*background: rgb(0, 193, 255);*/
     list-style-type: none;
 }
 
 .main-menu li {
     display: inline-block;
-    margin-right: 5px;
+    margin-right: 5px; 
 }
 
 .main-menu li a {
@@ -67,10 +71,27 @@ a {
     -webkit-transition: color 0.3s linear;
     transition: color 0.3s linear;
     color: rgba(183, 183, 183, 0.99);
+
+     -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(127, 127, 127, 0.66);
+    -moz-box-shadow:    0px 0px 5px 0px rgba(127, 127, 127, 0.66);
+    box-shadow:         0px 0px 5px 0px rgba(127, 127, 127, 0.66);
 }
 
 .main-menu li a:hover {
-    /*background-color: #318E94;      */
+    color: #01b2f1 !important;
+
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(1, 178, 241, 0.66);
+    -moz-box-shadow:    0px 0px 15px 0px rgba(1, 178, 241, 0.66);
+    box-shadow:         0px 0px 15px 0px rgba(1, 178, 241, 0.66);
+}
+
+.main-menu .selected a {
     color: #01b2f1 !important;
 
     -webkit-border-radius: 10px;
@@ -82,26 +103,31 @@ a {
 }
 
 .main-menu a {
-    background-color: #162a30;
     font-size: 14px;
     padding: 10px 10px;
     line-height: 40px;
 }
 
-.GabeN {
-    background-color: #2b2b2b;
-    color: #C58D63;
-    width: 900px;
-    margin: 0px auto;
-    font-size: 10px;
-}
-
-.GabeN-div {
-    margin-top: 45px;
-    background-color: #2b2b2b;
-    color: #ffffff;
-}
-
+/* BODY STYLES */
 body {
     background-color: #2b2b2b;
+}
+
+#body_wrapper {
+    padding-top: 20px;
+    background: rgb(255, 255, 255);
+    width: 960px;
+    margin: 0px auto;
+}
+
+#center_body {
+    border: 1px solid;
+    min-height: 100px;
+}
+#footer {
+    background: rgb(113, 109, 109);
+    color: #EEE;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
