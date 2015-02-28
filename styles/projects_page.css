@@ -100,4 +100,19 @@
     width: 340px;
 }
 
+.embed_page {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.embed_page iframe {
+    width: 100%;
+    min-height: 1000px;
+}
+
+.legacy_iframe {
+    width: 100%;
+    height: 8500px;
+}
+
 /* SOFTWARE CATEGORY */

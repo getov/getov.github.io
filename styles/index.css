@@ -127,6 +127,11 @@ body {
     margin: 0px auto;
 }
 
+#center_body {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
 #center_body div {
    margin-top: 20px;
 }
