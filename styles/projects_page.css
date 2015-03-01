@@ -115,4 +115,60 @@
     height: 8500px;
 }
 
+.pc_parts_table {
+    list-style-type: none;
+}
+
+.pc_parts_table li {
+    margin-bottom: 1px;
+}
+
+.hardware_part {
+    width: 100px;
+    display: inline-block;
+    border: 1px solid;
+    padding: 3px 3px 3px 3px;
+    font-weight: bold;
+}
+
+.description {
+    width: 320px;
+    display: inline-block;
+    border: 1px solid;
+    padding: 3px 3px 3px 3px;
+}
+
+.parts_table_wrapper {
+    width: 450px;
+    padding-left: 20px;
+    float: left;
+}
+
+.parts_table_wrapper h4 {
+    margin-bottom: 10px;
+}
+
+/* Used for main images on project pages */
+.image_title img {
+    width: 400px;
+    height: 350px;
+
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(127, 127, 127, 0.66);
+    -moz-box-shadow:    0px 0px 5px 0px rgba(127, 127, 127, 0.66);
+    box-shadow:         0px 0px 5px 0px rgba(127, 127, 127, 0.66);
+}
+
+#side_text {
+    width: 500px; 
+    float: left;
+    overflow: hidden;
+    text-wrap: normal;
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 /* SOFTWARE CATEGORY */

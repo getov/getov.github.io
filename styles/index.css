@@ -79,7 +79,7 @@ a {
     transition: color 0.3s linear;
     color: rgba(183, 183, 183, 0.99);
 
-     -webkit-border-radius: 10px;
+    -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
     -webkit-box-shadow: 0px 0px 5px 0px rgba(127, 127, 127, 0.66);
@@ -144,4 +144,12 @@ body {
     padding-bottom: 10px;
 
     margin-top: 30px;
+}
+
+pre {
+    white-space: pre-wrap;       /* CSS 3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
