@@ -97,7 +97,7 @@
 }
 
 .hardware_category li span {
-    width: 340px;
+    width: 340px !important;
 }
 
 .embed_page {
